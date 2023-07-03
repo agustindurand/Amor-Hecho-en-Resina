@@ -33,11 +33,18 @@
     font-size: 12px;
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lilita+One&display=swap');
-.titulo { 
+  .contenedor-titulo {
+    display: flex;
+    justify-content: center;
+  }
 
-  font-family: "Arizonia", "Lilita One", cursive;
- font-size: 100px;
+.titulo {
+   font-family: 'Dancing Script', cursive;
+ 
+    top: 50%;
+    left: 50%;
+ 
+
 }
 
 
